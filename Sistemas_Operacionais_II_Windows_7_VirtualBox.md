@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Este material foi elaborado com base nas capturas de tela presentes no arquivo da atividade. As imagens mostram a criação e a configuração de uma máquina virtual no **Oracle VM VirtualBox**, utilizando o **Windows 7 Enterprise 64 bits** como sistema operacional convidado.
+Este material apresenta a criação e a configuração de uma máquina virtual no **Oracle VM VirtualBox**, utilizando o **Windows 7 Enterprise 64 bits** como sistema operacional convidado.
 
 A atividade envolve principalmente:
 
@@ -870,6 +870,3 @@ Assim, a atividade reúne conceitos fundamentais de **virtualização, instalaç
 
 ---
 
-## Observação sobre as imagens utilizadas
-
-Este documento foi elaborado a partir das capturas de tela fornecidas no arquivo da atividade. Algumas imagens estão fotografadas diretamente da tela do computador e algumas informações apresentam baixa nitidez; por isso, o material preserva apenas os dados que puderam ser identificados nas imagens, sem assumir configurações que não estejam evidenciadas nelas.
