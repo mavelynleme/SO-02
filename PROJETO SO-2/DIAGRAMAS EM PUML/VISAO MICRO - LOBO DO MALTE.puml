@@ -1,4 +1,6 @@
 @startuml
+top to bottom direction
+
 skinparam rectangle {
     BackgroundColor White
     BorderColor Black
@@ -6,11 +8,81 @@ skinparam rectangle {
 }
 
 rectangle "C:/" as C
-rectangle "LOBODOMALTE" as ROOT
+rectangle "LOBODOMALTE.NET" as ROOT
+
+rectangle "andre.barreto\nAdministradores: Controle Total\nandre.barreto: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U1
+rectangle "beatriz.proenca\nAdministradores: Controle Total\nbeatriz.proenca: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U2
+rectangle "bianca.reis\nAdministradores: Controle Total\nbianca.reis: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U3
+rectangle "bruno.ribeiro\nAdministradores: Controle Total\nbruno.ribeiro: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U4
+rectangle "caio.sodre\nAdministradores: Controle Total\ncaio.sodre: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U5
+rectangle "camila.vieira\nAdministradores: Controle Total\ncamila.vieira: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U6
+rectangle "camila.paiva\nAdministradores: Controle Total\ncamila.paiva: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U7
+rectangle "diego.terra\nAdministradores: Controle Total\ndiego.terra: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U8
+rectangle "eduardo.cruz\nAdministradores: Controle Total\neduardo.cruz: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U9
+rectangle "fabio.campos\nAdministradores: Controle Total\nfabio.campos: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U10
+rectangle "felipe.teles\nAdministradores: Controle Total\nfelipe.teles: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U11
+rectangle "fernanda.sales\nAdministradores: Controle Total\nfernanda.sales: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U12
+rectangle "gabriel.andrade\nAdministradores: Controle Total\ngabriel.andrade: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U13
+rectangle "gustavo.lira\nAdministradores: Controle Total\ngustavo.lira: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U14
+rectangle "henrique.lemos\nAdministradores: Controle Total\nhenrique.lemos: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U15
+rectangle "isabela.rocha\nAdministradores: Controle Total\nisabela.rocha: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U16
+rectangle "juliana.lima\nAdministradores: Controle Total\njuliana.lima: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U17
+rectangle "larissa.aguiar\nAdministradores: Controle Total\nlarissa.aguiar: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U18
+rectangle "leonardo.siqueira\nAdministradores: Controle Total\nleonardo.siqueira: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U19
+rectangle "marcelle.silva\nAdministradores: Controle Total\nmarcelle.silva: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U20
+rectangle "marcos.prado\nAdministradores: Controle Total\nmarcos.prado: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U21
+rectangle "mariana.farias\nAdministradores: Controle Total\nmariana.farias: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U22
+rectangle "mavelyn.leme\nAdministradores: Controle Total\nmavelyn.leme: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U23
+rectangle "naiara.correia\nAdministradores: Controle Total\nnaiara.correia: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U24
+rectangle "otavio.pinheiro\nAdministradores: Controle Total\notavio.pinheiro: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U25
+rectangle "patricia.duarte\nAdministradores: Controle Total\npatricia.duarte: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U26
+rectangle "pedro.xavier\nAdministradores: Controle Total\npedro.xavier: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U27
+rectangle "priscila.cabral\nAdministradores: Controle Total\npriscila.cabral: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U28
+rectangle "rafael.martins\nAdministradores: Controle Total\nrafael.martins: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U29
+rectangle "renata.vilela\nAdministradores: Controle Total\nrenata.vilela: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U30
+rectangle "rodrigo.assuncao\nAdministradores: Controle Total\nrodrigo.assuncao: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U31
+rectangle "sabrina.guedes\nAdministradores: Controle Total\nsabrina.guedes: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U32
+rectangle "thiago.nogueira\nAdministradores: Controle Total\nthiago.nogueira: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U33
+rectangle "vinicius.castro\nAdministradores: Controle Total\nvinicius.castro: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U34
+rectangle "wesley.tavares\nAdministradores: Controle Total\nwesley.tavares: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U35
+rectangle "yasmin.neves\nAdministradores: Controle Total\nyasmin.neves: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U36
 
 C --> ROOT
 
-rectangle "adriana.tanaka\nAdministradores: Controle Total\nadriana.tanaka: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar\nCota: 300MB" as U1
-
-ROOT --> U1
+ROOT -[hidden]-> U1
+U1 -[hidden]-> U2
+U2 -[hidden]-> U3
+U3 -[hidden]-> U4
+U4 -[hidden]-> U5
+U5 -[hidden]-> U6
+U6 -[hidden]-> U7
+U7 -[hidden]-> U8
+U8 -[hidden]-> U9
+U9 -[hidden]-> U10
+U10 -[hidden]-> U11
+U11 -[hidden]-> U12
+U12 -[hidden]-> U13
+U13 -[hidden]-> U14
+U14 -[hidden]-> U15
+U15 -[hidden]-> U16
+U16 -[hidden]-> U17
+U17 -[hidden]-> U18
+U18 -[hidden]-> U19
+U19 -[hidden]-> U20
+U20 -[hidden]-> U21
+U21 -[hidden]-> U22
+U22 -[hidden]-> U23
+U23 -[hidden]-> U24
+U24 -[hidden]-> U25
+U25 -[hidden]-> U26
+U26 -[hidden]-> U27
+U27 -[hidden]-> U28
+U28 -[hidden]-> U29
+U29 -[hidden]-> U30
+U30 -[hidden]-> U31
+U31 -[hidden]-> U32
+U32 -[hidden]-> U33
+U33 -[hidden]-> U34
+U34 -[hidden]-> U35
+U35 -[hidden]-> U36
 @enduml
