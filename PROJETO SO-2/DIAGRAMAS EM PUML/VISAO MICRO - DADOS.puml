@@ -1,0 +1,48 @@
+@startuml
+left to right direction
+
+skinparam rectangle {
+    BackgroundColor White
+    BorderColor Black
+    RoundCorner 0
+}
+
+rectangle "C:/" as C
+rectangle "Dados" as Dados
+
+rectangle "Produção" as Prod
+rectangle "RH" as RH
+rectangle "TI" as TI
+rectangle "Vendas" as Vendas
+
+rectangle "Administradores: Controle Total\nalessandro.silva: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar" as P_Admin
+rectangle "Grupo Produção\nmodificar, ler & executar, listar conteúdo da\npasta, leitura, gravar\nCota: 1GB" as P_Grupo
+
+rectangle "Administradores: Controle Total\nalessandro.silva: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar" as RH_Admin
+rectangle "Grupo RH\nmodificar, ler & executar, listar conteúdo da\npasta, leitura, gravar\nCota: 1GB" as RH_Grupo
+
+rectangle "Administradores: Controle Total\npaulo.silva: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar" as TI_Admin
+rectangle "Grupo TI\nmodificar, ler & executar, listar conteúdo da\npasta, leitura, gravar\nCota: 1GB" as TI_Grupo
+
+rectangle "Administradores: Controle Total\nalessandro.silva: modificar, ler &\nexecutar, listar conteúdo da pasta,\nleitura, gravar" as V_Admin
+rectangle "Grupo Vendas\nmodificar, ler & executar, listar conteúdo da\npasta, leitura, gravar\nCota: 1GB" as V_Grupo
+
+C --> Dados
+
+Dados --> Prod
+Dados --> RH
+Dados --> TI
+Dados --> Vendas
+
+Prod --> P_Admin
+Prod --> P_Grupo
+
+RH --> RH_Admin
+RH --> RH_Grupo
+
+TI --> TI_Admin
+TI --> TI_Grupo
+
+Vendas --> V_Admin
+Vendas --> V_Grupo
+@endl
