@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+
+skinparam rectangle {
+    BackgroundColor White
+    BorderColor Black
+    RoundCorner 0
+}
+
+rectangle "C:/" as C
+
+rectangle "LOBODOMALTE" as LOBODOMALTE
+rectangle "Dados" as Dados
+rectangle "Wallpaper" as Wallpaper
+
+rectangle "Administradores:\nControle Total\n\nTodos: ler &\nexecutar, listar\nconteúdo da\npasta, leitura" as LOBODOMALTE_Perms
+
+rectangle "Administradores:\nControle Total\n\nUsuários: ler &\nexecutar, listar\nconteúdo da\npasta, leitura" as Dados_Perms
+
+rectangle "Administradores:\nControle Total\n\nSistema:\nControle Total\n\nUsuários: ler &\nexecutar, listar\nconteúdo da\npasta, leitura\n\nProprietário\nCriador:\nPermissões\nespeciais" as Wallpaper_Perms
+
+C --> LOBODOMALTE
+C --> Dados
+C --> Wallpaper
+
+LOBODOMALTE --> LOBODOMALTE_Perms
+Dados --> Dados_Perms
+Wallpaper --> Wallpaper_Perms
+@enduml
