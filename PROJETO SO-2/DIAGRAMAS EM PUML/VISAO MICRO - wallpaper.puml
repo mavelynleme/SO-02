@@ -1,0 +1,14 @@
+@startuml
+skinparam rectangle {
+    BackgroundColor White
+    BorderColor Black
+    RoundCorner 0
+}
+
+rectangle "C:/" as C
+rectangle "Wallpaper" as Wallpaper
+rectangle "Logo" as Logo
+
+C --> Wallpaper
+Wallpaper --> Logo
+@enduml
